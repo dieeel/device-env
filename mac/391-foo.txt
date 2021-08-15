@@ -1,0 +1,183 @@
+
+## homebrew
+
+```
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+## sudo
+
+brew update && brew upgrade
+brew install cask libraries
+brew tap caskroom/cask
+brew tap caskroom/versions
+brew cask install java8
+/usr/libexec/java_home -V
+
+# sudo
+
+```
+brew install ant ansible docker-machine docker-compose git jq maven sbt wget
+brew cask install google-backup-and-sync
+brew cask install google-chrome
+brew cask install google-japanese-ime
+```
+
+# sudo
+brew cask install microsoft-office
+brew cask install github-desktop
+brew cask install firefox appcleaner
+brew cask install onyx duet hosts cyberduck
+brew cask install intellij-idea-ce virtualbox
+# sudo
+brew cask install xquartz
+brew install mackup
+# mackup restore #??
+# Install dev packages
+brew tap homebrew/science
+brew install automake cmake gcc
+brew install go pyenv scala thrift
+brew install apache-spark apache-zeppelin cassandra elasticsearch redis kibana kafka mongodb 
+mysql node sqlite zookeeper
+brew install imagemagick opencv geoip
+brew install bash-completion
+brew cask install iterm2
+brew install pyenv-virtualenv
+brew install pyenv-virtualenvwrapper
+brew install awscli
+brew cask install slack
+brew cask install docker
+brew cask install pycharm-ce
+brew cask install evernote
+brew cask install dropbox
+brew install plantuml
+brew cask install skitch
+brew cask install skype
+brew install tree
+brew install iproute2mac
+brew tap coteditor/coteditor
+brew install cot
+brew cask install coteditor
+brew install qemu
+brew cask install visual-studio-code
+brew cask install google-drive-file-stream
+brew install openssl node-build nodenv
+brew cask install sourcetree
+brew cask install basictex # need pass
+brew install pandoc
+brew install postgresql
+brew install yarn
+brew install p7zip
+brew install jq
+brew install readline xz
+brew cask install atom
+brew tap homebrew/cask-fonts
+brew install zlib
+
+need to sudo
+brew cask install webstorm
+
+ここ注意
+brew cask install google-drive-file-stream # need sudo
+brew cask install google-backup-and-sync # need sudo
+
+Mac OS verup後の注意点
+xcode-select --install
+
+### secureに引っ越し
+~/.ec2
+~/.ssh
+~/local
+/opt/impulse
+
+### aws 設定
+aws configure
+
+### 1password
+ダウンロード(pkg)
+インストール
+
+### 設定
+drop boxアカウント設定
+evernoteアカウント設定
+Microsoft Office 365 アカウント設定
+google drive アカウント設定
+ssh-keygen
+* github
+* bitbucket
+
+# git管理
+dotfiles
+
+pip completion --bash >> ~/.bashrc
+
+ln -s /Applications/Docker.app/Contents/Resources/etc/docker.bash-completion $(brew --prefix)/etc/bash_completion.d/docker
+
+ln -s /Applications/Docker.app/Contents/Resources/etc/docker-machine.bash-completion $(brew --prefix)/etc/bash_completion.d/docker-machine
+
+ln -s /Applications/Docker.app/Contents/Resources/etc/docker-compose.bash-completion $(brew --prefix)/etc/bash_completion.d/docker-compose
+
+
+
+ssh-keygen -t rsa -b 4096
+*) Microsoft License -> 365
+
+AWS
+aws configure
+atom
+(markup用）
+
+理想はSphinxを使ってマニュアル化（クラス等を自動補完してくれるため）
+
+
+
+dropbox
+
+evernote
+
+
+python
+pyenv install 2.7.13
+pyenv install 3.6.1
+pyenv install 3.7.1
+pyenv virtualenv 2.7.13 ve.2.7.13
+pyenv virtualenv 3.6.1 ve.3.6.1
+pyenv virtualenv 3.6.3 ve.3.7.1
+pyenv virtualenv 3.6.1 ipo-opt
+pyenv global ve.3.7.1
+
+export CFLAGS="-I$(brew --prefix openssl)/include"
+export LDFLAGS="-L$(brew --prefix openssl)/lib -L$(brew --prefix sqlite3)/lib"
+export CPPFLAGS="-I$(brew --prefix sqlite3)/include"
+
+
+export CFLAGS="-I/usr/local/Cellar/openssl/1.0.2s/include"
+export LDFLAGS="-L/usr/local/Cellar/openssl/1.0.2s/lib"
+
+
+
+新しいバージョンだとエラーになる場合
+brew switch openssl 1.0.2s
+
+こういうとき
+Python 3.7.3 (default, Jun 19 2019, 14:09:22)
+[Clang 11.0.0 (clang-1100.0.20.17)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import ssl
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/Users/takaaki/.pyenv/versions/3.7.3/lib/python3.7/ssl.py", line 98, in <module>
+    import _ssl             # if we can't import it, let the error propagate
+ImportError: dlopen(/Users/takaaki/.pyenv/versions/3.7.3/lib/python3.7/lib-dynload/_ssl.cpython-37m-darwin.so, 2): Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /Users/takaaki/.pyenv/versions/3.7.3/lib/python3.7/lib-dynload/_ssl.cpython-37m-darwin.so
+  Reason: image not found
+
+あとこういうとき
+from urllib3.util.ssl_ import (
+ImportError: cannot import name 'ssl'
+
+
+chrome 左スワイプ戻るを無効
+defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool FALSE
+
+
