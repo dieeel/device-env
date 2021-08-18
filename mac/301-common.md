@@ -5,10 +5,31 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 # ==> The Xcode Command Line Tools will be installed. => Enter
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
+```
 brew install git
-brew install bash-completion
+git --version
+```
+
+```
 brew tap homebrew/cask-versions  # バージョンを指定してインストールすることが可能 NeedSuDo
 brew cask install iterm2
+```
+
+```
+brew install zsh-completions
+```
+
+edit `~/.zshrc`
+
+```
+  if type brew &>/dev/null; then
+    FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+
+    autoload -Uz compinit
+    compinit
+  fi
 ```
 
 ## python
@@ -71,6 +92,7 @@ brew install awscli
 ## dev etc
 
 ```
+brew install bash-completion
 brew cask install github-desktop
 brew cask install sourcetree
 brew install jq
