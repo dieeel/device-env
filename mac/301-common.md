@@ -3,7 +3,8 @@
 ```
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"  # NeedSuDo
 # ==> The Xcode Command Line Tools will be installed. => Enter
-brew update && brew upgrade  # NeedSuDo
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 brew install git
 brew install bash-completion
 brew tap homebrew/cask-versions  # バージョンを指定してインストールすることが可能 NeedSuDo
