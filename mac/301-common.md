@@ -13,8 +13,8 @@ git --version
 ```
 
 ```
-brew tap homebrew/cask-versions  # バージョンを指定してインストールすることが可能 NeedSuDo
-brew cask install iterm2
+brew tap homebrew/cask-versions  # バージョンを指定してインストールすることが可能
+brew install iterm2
 ```
 
 ```
@@ -105,7 +105,7 @@ brew install bash-completion
 brew cask install github-desktop
 brew cask install sourcetree
 brew install jq
-brew cask install firefox
+brew install firefox
 brew install zlib
 brew install automake cmake gcc
 brew install tree
