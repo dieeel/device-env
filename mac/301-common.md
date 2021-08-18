@@ -119,7 +119,7 @@ brew install google-japanese-ime
 brew install evernote
 brew install dropbox
 brew install slack
-brew install skype
+
 ```
 
 ## dev
@@ -135,6 +135,7 @@ brew install awscli
 ```
 brew install bash-completion
 brew cask install github-desktop
+brew install skype
 brew cask install sourcetree
 brew install jq
 brew install firefox
