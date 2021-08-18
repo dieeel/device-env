@@ -52,6 +52,8 @@ brew install pyenv-virtualenvwrapper
 ### python env
 
 ```
+
+pyenv install --list
 pyenv install 3.8.1
 pyenv virtualenv 3.8.1 ve.3.8.1
 pyenv global ve.3.8.1
@@ -106,8 +108,27 @@ brew cask install github-desktop
 brew cask install sourcetree
 brew install jq
 brew install firefox
-brew install zlib
 brew install automake cmake gcc
 brew install tree
+```
+
+
+### zlib等
+
+```
+brew install zlib
+```
+
+この辺りはpython周りのせい？
+
+```
+ ~ % pyenv install 3.9.6
+python-build: use openssl@1.1 from homebrew
+python-build: use readline from homebrew
+Downloading Python-3.9.6.tar.xz...
+-> https://www.python.org/ftp/python/3.9.6/Python-3.9.6.tar.xz
+Installing Python-3.9.6...
+python-build: use readline from homebrew
+python-build: use zlib from xcode sdk
 ```
 
