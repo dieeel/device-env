@@ -1,7 +1,8 @@
 ## base homebrew & git & terminal etc ...
 
 ```
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"  # NeedSuDo
+# ==> The Xcode Command Line Tools will be installed. => Enter
 brew update && brew upgrade  # NeedSuDo
 brew install git
 brew install bash-completion
