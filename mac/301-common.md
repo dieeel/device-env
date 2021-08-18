@@ -97,6 +97,11 @@ brew install jenv
 echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.zshrc
 echo 'eval "$(jenv init -)"' >> ~/.zshrc
 source ~/.zshrc
+```
+
+if needed
+
+```
 /usr/libexec/java_home -V  # インストール済みJDK(JAVA_HOME)の確認
 jenv add `/usr/libexec/java_home -v "16"`
 jenv versions
@@ -108,13 +113,13 @@ jenv versions
 ## common
 
 ```
-brew cask install google-chrome
-brew cask install google-backup-and-sync  # google-drive かも
-brew cask install google-japanese-ime
-brew cask install evernote
-brew cask install dropbox
-brew cask install slack
-brew cask install skype
+brew install google-chrome
+brew install google-drive
+brew install google-japanese-ime
+brew install evernote
+brew install dropbox
+brew install slack
+brew install skype
 ```
 
 ## dev
