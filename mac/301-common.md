@@ -123,9 +123,19 @@ brew install slack
 
 ## dev
 
+docker for M1
+
+* dockerを公式からダウンロード
+* 以下を実行
+
 ```
-brew install docker
 softwareupdate --install-rosetta  # docker for M1
+```
+
+etc
+
+```
+# brew install docker  # NG for M1
 brew install docker-compose
 brew install awscli
 ```
