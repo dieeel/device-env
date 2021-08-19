@@ -115,7 +115,7 @@ jenv versions
 ```
 brew install google-chrome
 brew install google-drive
-brew install google-japanese-ime
+brew install google-japanese-ime  # M1未対応2021/8/19時点
 brew install evernote
 brew install dropbox
 brew install slack
