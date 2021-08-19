@@ -125,6 +125,7 @@ brew install slack
 
 ```
 brew install docker
+softwareupdate --install-rosetta  # docker for M1
 brew install docker-compose
 brew install awscli
 ```
