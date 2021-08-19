@@ -4,7 +4,7 @@
 ### has lisence
 
 ```
-brew cask install microsoft-office
+brew install microsoft-office
 ```
 
 ## IDE
@@ -12,14 +12,14 @@ brew cask install microsoft-office
 #### has lisence
 
 ```
-brew cask install webstorm
+brew install webstorm
 ```
 
 #### Not has lisence
 
 ```
-brew cask install visual-studio-code
-brew cask install pycharm-ce
-brew cask install intellij-idea-ce
+brew install visual-studio-code
+brew install pycharm-ce
+brew install intellij-idea-ce
 ```
 
