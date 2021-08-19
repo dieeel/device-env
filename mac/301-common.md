@@ -119,13 +119,12 @@ brew install google-japanese-ime
 brew install evernote
 brew install dropbox
 brew install slack
-
 ```
 
 ## dev
 
 ```
-brew cask install docker
+brew install docker
 brew install docker-compose
 brew install awscli
 ```
