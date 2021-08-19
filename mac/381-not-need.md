@@ -14,7 +14,7 @@ source ~/.zshrc
 nodenv versions
 ```
 
-
+```
 # #####################################################3
 # #####################################################3
 # #####################################################3
@@ -127,4 +127,5 @@ ImportError: cannot import name 'ssl'
 chrome 左スワイプ戻るを無効
 defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool FALSE
 
+```
 
