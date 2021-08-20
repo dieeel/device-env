@@ -10,6 +10,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 brew install git
 git --version
+mkdir -p ~/gitrepo/own
 ```
 
 ```
