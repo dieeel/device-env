@@ -175,3 +175,11 @@ nodenv versions
 ### dot files
 
 vimとか[こちら](https://github.com/dieeel/dotfiles)参照
+
+### ソフトウェアのアカウント設定
+
+* drop boxアカウント設定
+* evernoteアカウント設定
+* Microsoft Office 365 アカウント設定
+* google drive アカウント設定
+* IDE (pycharm, webstome, visual studio code, etc ...)
