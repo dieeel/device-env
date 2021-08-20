@@ -123,7 +123,7 @@ brew install slack
 
 ## dev
 
-docker for M1
+### docker for M1
 
 * dockerを公式からダウンロード
 * 以下を実行
@@ -140,7 +140,7 @@ brew install docker-compose
 brew install awscli
 ```
 
-## dev etc
+### etc
 
 ```
 brew install bash-completion
@@ -151,25 +151,17 @@ brew install jq
 brew install firefox
 brew install automake cmake gcc
 brew install tree
+brew install plantuml
 ```
 
-
-### zlib等
-
-```
-brew install zlib
-```
-
-この辺りはpython周りのせい？
+### node
 
 ```
- ~ % pyenv install 3.9.6
-python-build: use openssl@1.1 from homebrew
-python-build: use readline from homebrew
-Downloading Python-3.9.6.tar.xz...
--> https://www.python.org/ftp/python/3.9.6/Python-3.9.6.tar.xz
-Installing Python-3.9.6...
-python-build: use readline from homebrew
-python-build: use zlib from xcode sdk
+brew install nodenv
+echo 'export PATH=$HOME/.nodenv/bin:$PATH' >> ~/.zshrc
+echo 'eval "$(nodenv init -)"' >> ~/.zshrc
+source ~/.zshrc
+nodenv install 16.7.0
+nodenv global 16.7.0
+nodenv versions
 ```
-
