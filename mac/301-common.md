@@ -169,9 +169,12 @@ nodenv versions
 
 ### secure file 引っ越し
 
-~/.aws
-~/.ssh
-~/local
+```
+mkdir ~/.aws
+mkdir ~/.ssh
+chmod 0700 ~/.ssh
+mkdir ~/local
+```
 
 ### dot files
 
