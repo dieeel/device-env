@@ -170,4 +170,8 @@ nodenv versions
 
 ~/.aws
 ~/.ssh
+~/local
 
+### dot files
+
+vimとか[こちら](https://github.com/dieeel/dotfiles)参照
