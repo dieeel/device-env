@@ -1,20 +1,22 @@
-## dev stuff
+## zlib等
 
 ```
-brew install plantuml
+brew install zlib
 ```
 
-## node
+この辺りはpython周りのせい？
 
 ```
-brew install nodenv
-echo 'export PATH=$HOME/.nodenv/bin:$PATH' >> ~/.zshrc
-echo 'eval "$(nodenv init -)"' >> ~/.zshrc
-source ~/.zshrc
-nodenv install 16.7.0
-nodenv global 16.7.0
-nodenv versions
+ ~ % pyenv install 3.9.6
+python-build: use openssl@1.1 from homebrew
+python-build: use readline from homebrew
+Downloading Python-3.9.6.tar.xz...
+-> https://www.python.org/ftp/python/3.9.6/Python-3.9.6.tar.xz
+Installing Python-3.9.6...
+python-build: use readline from homebrew
+python-build: use zlib from xcode sdk
 ```
+
 
 ```
 # #####################################################3
