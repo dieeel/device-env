@@ -165,3 +165,9 @@ nodenv install 16.7.0
 nodenv global 16.7.0
 nodenv versions
 ```
+
+### secure file 引っ越し
+
+~/.aws
+~/.ssh
+
