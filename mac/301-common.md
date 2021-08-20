@@ -183,3 +183,8 @@ vimとか[こちら](https://github.com/dieeel/dotfiles)参照
 * Microsoft Office 365 アカウント設定
 * google drive アカウント設定
 * IDE (pycharm, webstome, visual studio code, etc ...)
+
+### ssh-keygen
+
+* github
+* bitbucket
