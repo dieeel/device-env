@@ -190,5 +190,13 @@ vimとか[こちら](https://github.com/dieeel/dotfiles)参照
 
 ### ssh-keygen
 
+generate key
+
+```
+cd ~/.ssh
+ssh-keygen -t rsa
+cat id_rsa.pub| pbcopy
+```
+
 * github
 * bitbucket
