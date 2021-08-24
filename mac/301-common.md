@@ -200,3 +200,18 @@ cat id_rsa.pub| pbcopy
 
 * github
 * bitbucket
+
+### link
+
+```
+cd
+ln -s Dropbox/sync/mac/home
+ln -s home/dockerep
+ln -s home/scripts
+
+cd ~/Desktop
+ln -s ~/home/desktop
+
+cd ~/Downloads
+ln -s ~/home/downloads
+```
