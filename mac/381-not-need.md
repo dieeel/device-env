@@ -1,3 +1,9 @@
+## 遊び
+
+```
+brew install discord
+```
+
 ## zlib等
 
 ```
