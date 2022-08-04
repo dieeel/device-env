@@ -217,3 +217,9 @@ ln -s ~/home/desktop
 cd ~/Downloads
 ln -s ~/home/downloads
 ```
+
+### postman
+
+```
+brew install postman
+```
