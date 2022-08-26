@@ -155,6 +155,7 @@ brew install firefox
 brew install automake cmake gcc
 brew install tree
 brew install plantuml
+brew install aws-vpn-client
 ```
 
 ### node
