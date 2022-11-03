@@ -62,7 +62,7 @@ Dockを日本指タップで"自動的に非表示"をオンにする
 
 ## 1 password
 
-1 passwordのサイトから 1 password6をダウンロードしインストール
-[参考](https://masamichi.me/development/2019/08/11/1password-downgrade.html)
+1 passwordのサイトから 1 password7をダウンロードしインストール
+[公式ページのダウンロードページ右下](https://1password.com/jp/downloads/mac/)
 
 
