@@ -1,7 +1,7 @@
 ## base homebrew & git & terminal etc ...
 
 ```
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"  # NeedSuDo
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"  # NeedSuDo
 # ==> The Xcode Command Line Tools will be installed. => Enter
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
