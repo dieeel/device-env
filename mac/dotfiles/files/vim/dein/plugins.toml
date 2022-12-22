@@ -1,0 +1,41 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]] # toml syntax
+repo = 'cespare/vim-toml'
+on_ft = 'toml'
+
+[[plugins]] # preview markdown & plantuml with `:PrevimOpen` command
+repo = 'kazuph/previm'
+rev = 'feature/add-plantuml-plugin'
+on_ft = ['md', 'markdown']
+depends = ['/open-browser.vim']
+hook_add = '''
+    augroup PrevimSettings
+        autocmd!
+        autocmd BufNewFile,BufRead *.{md,mdwn,mkd,mkdn,mark*} set filetype=markdown
+    augroup END
+    let g:previm_open_cmd = ''
+'''
+
+[[plugins]] # for previm
+repo = 'tyru/open-browser.vim'
+on_source = ['previm']
+
+[[plugins]]
+repo = 'aklt/plantuml-syntax'
+on_ft = ['pu', 'uml', 'md']
+hook_add = '''
+    let g:plantuml_executable_script = "~/local/bin/plantuml"
+'''
+
+[[plugins]]
+repo = 'nathanaelkane/vim-indent-guides'
+on_ft = ['py', 'ipython', 'ipynb']
+hook_add = '''
+    colorscheme molokai
+    let g:indent_guides_enable_on_vim_startup = 1
+    let g:indent_guides_start_level = 2
+    let g:indent_guides_guide_size = 1
+'''
+

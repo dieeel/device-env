@@ -1,0 +1,2 @@
+runtime! nodein.vim
+runtime! dein/rc.vim
