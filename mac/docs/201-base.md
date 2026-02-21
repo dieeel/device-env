@@ -3,7 +3,7 @@
 ## base tool (homebrew & git & terminal etc ...)
 
 * [公式サイト（HomeBrew）](https://brew.sh/ja/)からコマンドをターミナルから実行（sudo必要）
-* zprofileの更新も実施
+* zshprofileの更新も実施
 
 ### Terminal
 
