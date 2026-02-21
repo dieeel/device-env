@@ -11,13 +11,6 @@
 brew install --cask ghostty
 brew install iterm2
 ```
-### git
-
-```
-brew install git
-mkdir -p ~/gitrepo/own
-```
-
 ### zsh-completion
 
 ```
@@ -56,6 +49,29 @@ compaudit
 ```
 
 で該当ディレクトリの権限を755に
+
+### git
+
+```
+brew install git
+mkdir -p ~/gitrepo/own
+```
+
+```
+ssh-keygen -t 
+```
+
+* 
+
+
+```
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_ed25519
+  AddKeysToAgent yes
+  UseKeychain yes
+```
 
 ### secure file 引っ越し
 
