@@ -50,27 +50,38 @@ compaudit
 
 で該当ディレクトリの権限を755に
 
+### browser (chrome)
+
+```
+brew install --cask google-chrome
+```
+
 ### git
+
+git installからssh keyをクリップボードへコピーするまで一気に
 
 ```
 brew install git
 mkdir -p ~/gitrepo/own
-```
+ssh-keygen -t ed25519 -C "github-mac-mx-20xx" -f ~/.ssh/id_ed25519_git -N ""
+cat << 'EOF' >> ~/.ssh/config
 
-```
-ssh-keygen -t 
-```
-
-* 
-
-
-```
 Host github.com
   HostName github.com
   User git
-  IdentityFile ~/.ssh/id_ed25519
+  IdentityFile ~/.ssh/id_ed25519_git
   AddKeysToAgent yes
   UseKeychain yes
+
+EOF
+cat ~/.ssh/id_ed25519_git.pub | pbcopy
+```
+
+[git setting key](https://github.com/settings/keys)にてssh key設定
+
+```
+cd ~/gitrepo/own
+git clone git@github.com:dieeel/device-env.git
 ```
 
 ### secure file 引っ越し
