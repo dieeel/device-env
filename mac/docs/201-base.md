@@ -1,10 +1,17 @@
-# for console
+# Set up with Homebrew
 
 ## base homebrew & git & terminal etc ...
 
+[公式サイト（HomeBrew）](https://brew.sh/ja/)からコマンドをターミナルから実行（sudo必要）
+
+## Terminal
+
+メインターミナルとなるGhosttyをインストール
+
 ```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"  # NeedSuDo
+brew install --cask ghostty
 ```
+
 
 ```
 # ==> The Xcode Command Line Tools will be installed. => Enter
