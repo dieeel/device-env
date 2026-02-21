@@ -1,33 +1,21 @@
 # Set up with Homebrew
 
-## base homebrew & git & terminal etc ...
+## base tool (homebrew & git & terminal etc ...)
 
-[公式サイト（HomeBrew）](https://brew.sh/ja/)からコマンドをターミナルから実行（sudo必要）
+* [公式サイト（HomeBrew）](https://brew.sh/ja/)からコマンドをターミナルから実行（sudo必要）
+* zprofileの更新も実施
 
-## Terminal
-
-メインターミナルとなるGhosttyをインストール
+### Terminal
 
 ```
 brew install --cask ghostty
+brew install iterm2
 ```
-
-
-```
-# ==> The Xcode Command Line Tools will be installed. => Enter
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
-eval "$(/opt/homebrew/bin/brew shellenv)"
-```
+### git
 
 ```
 brew install git
-git --version
 mkdir -p ~/gitrepo/own
-```
-
-```
-brew tap homebrew/cask-versions  # バージョンを指定してインストールすることが可能
-brew install iterm2
 ```
 
 ### zsh-completion
