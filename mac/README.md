@@ -4,14 +4,11 @@
 
 ## やることサマリ
 
-* 3本指セットアップ
-* スマートクォート解除
-* caps lockとコントロールボタン入れ替え
-* apple 設定
-* wifi 設定
-* install
-* sec file 移動
-* github ssh key設定
-* bitbucket ssh key設定
-
+* 1xx: mac OSの設定
+* 2xx: Howmebrewを中心としたベースとなるツール等の設定
+* 3xx: dev関連の設定
+* 4xx: middle関連の設定
+* 5xx: office関連の設定
+* 8xx: hoby関連の設定
+* 9xx: etc
 

@@ -1,22 +1,22 @@
 # common
 
-## browser
-
-```
-brew install google-chrome
-brew install firefox
-```
-
-chromeはアカウントログインしておく
-
 ## cloud
+
+### Google Drive (need password)
 
 ```
 brew install google-drive
-brew install dropbox
-brew install --cask onedrive
-brew install evernote
 ```
+
+起動後にログインして各種設定
+
+### Notion
+
+```
+brew install --cask notion
+```
+
+起動後にログインして各種設定
 
 各ソフトウェアはアカウント設定する
 
@@ -34,13 +34,22 @@ brew install skype
 
 ## Google日本語入力
 
+need password
+
 ```
-brew install google-japanese-ime  # M1未対応2022/12/19時点
+brew install --cask google-japanese-ime
 ```
 
 chrome 左スワイプ戻るを無効
 
 ```
 defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool FALSE
+```
+
+### 基本的に不要
+
+```
+brew install dropbox
+brew install --cask onedrive
 ```
 

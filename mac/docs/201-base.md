@@ -84,6 +84,13 @@ cd ~/gitrepo/own
 git clone git@github.com:dieeel/device-env.git
 ```
 
+### dot files
+
+```
+cd device-env/mac/dotfiles
+bash setup.sh
+```
+
 ### secure file 引っ越し
 
 ```
@@ -91,12 +98,5 @@ mkdir ~/.aws
 mkdir ~/.ssh
 chmod 0700 ~/.ssh
 mkdir ~/local
-```
-
-### dot files
-
-```
-cd dotfiles
-bash setup.sh
 ```
 
