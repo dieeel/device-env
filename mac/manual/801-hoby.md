@@ -1,6 +1,6 @@
 # 遊び
 
-```
-brew install discord
-```
+## music
+
+* Logic Pro
 

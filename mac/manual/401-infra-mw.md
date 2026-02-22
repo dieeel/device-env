@@ -1,6 +1,22 @@
-# middle
+# infrastructure & middleware
 
-## db
+## Public Cloud
+
+### OCI
+
+```
+brew install oci-cli
+```
+
+### aws
+
+```
+brew install awscli
+```
+
+## middle
+
+### db
 
 mysql
 
@@ -26,7 +42,7 @@ redis
 brew install redis
 ```
 
-## etc
+### etc
 
 ```
 brew install zookeeper

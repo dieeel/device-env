@@ -1,6 +1,6 @@
 # not necessary
 
-## cloud
+## cloud tool
 
 ```
 brew install dropbox
@@ -48,4 +48,23 @@ brew install --cask google-japanese-ime
 defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool FALSE
 ```
 
+# etc tool
+
+```
+brew install imagemagick
+brew install opencv
+brew install geoip
+brew install iproute2mac
+brew install cot
+brew cask install coteditor
+brew install qemu
+brew cask install basictex # need pass
+brew install pandoc
+brew install yarn
+brew install p7zip
+brew install readline
+brew install xz
+brew cask install atom
+brew tap homebrew/cask-fonts
+```
 

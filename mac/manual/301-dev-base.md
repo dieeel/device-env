@@ -59,6 +59,7 @@ pnpmを最新版に設定
 
 ```
 corepack prepare pnpm@latest --activate
+pnpm setup
 ```
 
 > pnpm ライブラリのパッケージ管理（npm, yarnから移行）
@@ -105,25 +106,6 @@ brew cask install sourcetree
 
 * User名
 * gitrepo
-
-## Public Cloud
-
-### OCI
-
-```
-brew install oci-cli
-```
-
-### aws
-
-```
-brew install awscli
-```
-
-### ssh-keygen
-
-* bitbucket
-
 
 ## IDE
 
