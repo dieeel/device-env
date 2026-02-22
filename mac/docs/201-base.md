@@ -91,12 +91,11 @@ cd device-env/mac/dotfiles
 bash setup.sh
 ```
 
-### secure file 引っ越し
+### mas
+
+Mac Apple Store command-line interface
 
 ```
-mkdir ~/.aws
-mkdir ~/.ssh
-chmod 0700 ~/.ssh
-mkdir ~/local
+brew install mas
 ```
 

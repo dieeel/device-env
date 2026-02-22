@@ -23,33 +23,28 @@ brew install --cask notion
 
 ## comunication
 
+### Discord
+
+privacy settingも
+
+```
+brew install --cask discord
+```
+
+### slack
+
+インストール後、ログイン
+
 ```
 brew install slack
-brew install zoom
-brew install --cask microsoft-teams
-brew install skype
 ```
 
-各ソフトウェアはアカウント設定する
+### Line
 
-## Google日本語入力
-
-need password
+mas からinstall
 
 ```
-brew install --cask google-japanese-ime
-```
-
-chrome 左スワイプ戻るを無効
-
-```
-defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool FALSE
-```
-
-### 基本的に不要
-
-```
-brew install dropbox
-brew install --cask onedrive
+mas search LINE
+mas install <app_id>
 ```
 
