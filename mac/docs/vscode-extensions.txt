@@ -1,0 +1,5 @@
+bierner.markdown-mermaid
+jebbs.plantuml
+saoudrizwan.claude-dev
+vscodevim.vim
+yzhang.markdown-all-in-one
