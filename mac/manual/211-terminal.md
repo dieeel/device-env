@@ -19,4 +19,11 @@
 
 Working Directory => Reuse previous session's directory
 
+# Ghostty
+
+add config
+
+```
+window-save-state = always
+```
 
