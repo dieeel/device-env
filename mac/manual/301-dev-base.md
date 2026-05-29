@@ -97,7 +97,13 @@ brew install docker docker-compose docker-credential-helper
 
 ```
 brew install --cask github
-brew cask install sourcetree
+brew install sourcetree
+```
+
+github cli
+
+```
+brew install gh
 ```
 
 ### Finderのお気に入り
