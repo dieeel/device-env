@@ -14,7 +14,6 @@ brew install --cask onedrive
 ```
 brew install zoom
 brew install --cask microsoft-teams
-brew install skype
 ```
 
 ## secure file 引っ越し
@@ -30,6 +29,13 @@ mkdir ~/.aws
 mkdir ~/.ssh
 chmod 0700 ~/.ssh
 mkdir ~/local
+```
+
+## sleep防止
+
+```
+mas search amphetamine
+mas install 937984704
 ```
 
 ## Google日本語入力
